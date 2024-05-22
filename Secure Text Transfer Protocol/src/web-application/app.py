@@ -131,5 +131,4 @@ def register_user():
     return render_template('key-display.html', privatekey=str(private_key))
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=80)
-	#app.run()
+    app.run()
